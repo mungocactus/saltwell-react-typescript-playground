@@ -1,0 +1,50 @@
+.calendar {
+	margin-left: 0;
+
+	@media (min-width: 501px) {
+		margin-left: 100px;
+	}
+
+	h2 {
+		font-size: 65px;
+		margin: 0;
+
+		@media (min-width: 501px) {
+			font-size: 75px;
+		}
+	}
+}
+
+.date {
+	display: flex;
+	flex-direction: row;
+
+	h3 {
+		font-size: 21px;
+		letter-spacing: 6px;
+		margin: 0 0 0 5px;
+
+		@media (min-width: 501px) {
+			font-size: 28px;
+			margin: 0 0 0 50px;
+		}
+	}
+}
+
+.clockTimer {
+	margin: 0 0 50px 50px;
+
+	@media (min-width: 501px) {
+		margin: -20px 0 50px 100px;
+	}
+
+	h3 {
+		font-size: 50px;
+		letter-spacing: 10px;
+		margin: 0;
+
+		@media (min-width: 501px) {
+			margin: 0 0 0 50px;
+		}
+	}
+}

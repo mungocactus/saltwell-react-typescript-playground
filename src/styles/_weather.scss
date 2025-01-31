@@ -1,0 +1,163 @@
+.weatherpage {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	@media (min-width: 1201px) {
+		flex-direction: row;
+	}
+
+	.right-column {
+		margin: 0;
+		width: 100%;
+
+		@media (min-width: 501px) {
+			margin: 0 30px 0 10px;
+		}
+
+		@media (min-width: 1201px) {
+			width: 765px;
+		}
+	}
+
+	.left-column {
+		text-align: right;
+
+		img {
+			width: 100%;
+			margin-top: 30px;
+
+			@media (min-width: 1201px) {
+				max-width: 750px;
+				margin-top: 0;
+			}
+		}
+	}
+
+	.header-title {
+		color: #000;
+	}
+}
+
+.weather {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	@media (min-width: 501px) {
+		flex-direction: row;
+		margin-top: 50px;
+	}
+
+	@media (min-width: 1201px) {
+		width: 765px;
+	}
+
+	.weather-left {
+		width: 275px;
+
+		.heading {
+			margin-bottom: 36px;
+
+			@media (min-width: 501px) {
+				margin-bottom: 65px;
+			}
+		}
+	}
+
+	.weather-right {
+		margin-top: 38px;
+		width: 100%;
+
+		@media (min-width: 501px) {
+			margin-top: 0;
+		}
+	}
+
+	h1 {
+		font-size: 55px;
+	}
+
+	h4 {
+		font-size: 21px;
+		margin: 0 0 5px;
+		text-align: center;
+	}
+
+	.calendar {
+		margin-left: 0;
+
+		h2 {
+			font-style: italic;
+			font-size: 55px;
+		}
+
+		h3 {
+			display: none;
+		}
+	}
+
+	.weather-main {
+		font-size: 52px;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		white-space: break-spaces;
+	}
+
+	.item {
+		font-weight: 300;
+		margin-bottom: 0;
+	}
+
+	.weather-temp {
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 90px;
+	}
+
+	.weather-info {
+		margin-bottom: 0;
+	}
+
+	.weather-location {
+		font-size: 55px;
+		font-weight: 300;
+		line-height: 0.85;
+		margin-bottom: 50px;
+	}
+
+	.weather-extra {
+		font-weight: 300;
+		font-style: italic;
+		font-size: 28px;
+		margin-bottom: 127px;
+		line-height: 0;
+	}
+
+	.freeze {
+		color: #cceaf2;
+	}
+
+	.cold {
+		color: #e0e2e2;
+	}
+
+	.cool {
+		color: #bfbebb;
+	}
+
+	.mild {
+		color: #9f8c7d;
+	}
+
+	.warm {
+		color: #e0874a;
+	}
+
+	.hot {
+		color: #ffb600;
+	}
+}

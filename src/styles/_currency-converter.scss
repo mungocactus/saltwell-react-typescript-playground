@@ -1,0 +1,135 @@
+.currency {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 50px 0;
+	width: 100%;
+
+	@media (min-width: 501px) {
+		// display: flex;
+		// flex-direction: column;
+		// justify-content: flex-start;
+		// margin: 50px 0;
+		// width: 100%;
+	}
+
+	@media (min-width: 701px) {
+		flex-direction: row;
+		// margin-top: 50px;
+	}
+
+	@media (min-width: 1201px) {
+		width: 765px;
+		justify-content: space-between;
+	}
+
+	.weather-left {
+		width: 275px;
+
+		.heading {
+			margin-bottom: 36px;
+
+			@media (min-width: 501px) {
+				margin-bottom: 65px;
+			}
+		}
+	}
+
+	h1 {
+		font-size: 55px;
+	}
+}
+
+.currency-right {
+	margin: 0 15px 0 35px;
+
+	h4 {
+		font-size: 22px;
+		font-style: italic;
+		margin: 30px 0 30px;
+		text-align: left;
+	}
+}
+
+.converter {
+	display: flex;
+	flex-direction: column;
+
+	@media (min-width: 501px) {
+		flex-direction: row;
+	}
+
+	.input-container {
+		align-items: flex-start;
+		display: flex;
+		flex-direction: column;
+		margin-right: 35px;
+
+		@media (min-width: 501px) {
+			margin-right: 0;
+		}
+	}
+
+	label {
+		color: #000;
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+
+	select {
+		border: solid 1px lightgrey;
+		border-radius: 7px;
+		font-size: 18px;
+		letter-spacing: 1px;
+		height: 34px;
+		margin-top: 3px;
+		width: 100%;
+		padding-left: 10px;
+
+		@media (min-width: 501px) {
+			border-radius: 7px 0 0 7px;
+			width: 290px;
+		}
+	}
+
+	input {
+		border: solid 1px lightgrey;
+		border-radius: 7px;
+		font-size: 18px;
+		letter-spacing: 1px;
+		height: 30px;
+		margin-top: 3px;
+		width: calc(100% - 14px);
+		padding-left: 10px;
+
+		@media (min-width: 501px) {
+			border-radius: 0 7px 7px 0;
+			width: 120px;
+		}
+	}
+
+	.exchange-amount {
+		font-family: Arial, Helvetica, sans-serif;
+		color: #000;
+		background-color: #91fc8f;
+		border: solid 1px lightgrey;
+		border-radius: 7px;
+		font-size: 18px;
+		letter-spacing: 1px;
+		height: 32px;
+		margin-top: 3px;
+		width: calc(100% - 12px);
+		padding-left: 10px;
+
+		@media (min-width: 501px) {
+			border-radius: 0 7px 7px 0;
+			width: 121px;
+		}
+	}
+
+	p {
+		margin: 0;
+		padding-top: 3px;
+		text-align: left;
+	}
+}

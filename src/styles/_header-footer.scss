@@ -1,0 +1,47 @@
+.heading {
+	margin-bottom: 65px;
+}
+
+.header-title {
+	font-size: 65px;
+	line-height: 0.85;
+	margin: 0px;
+
+	@media (min-width: 501px) {
+		font-size: 100px;
+	}
+
+	@media (min-width: 701px) {
+		font-size: 150px;
+	}
+}
+
+footer {
+	margin: 0 0 100px 50px;
+
+	@media (min-width: 501px) {
+		margin: 0 0 100px 100px;
+	}
+
+	h3 {
+		margin: 0 0 6px 0;
+
+		@media (min-width: 501px) {
+			margin: 0 0 6px 50px;
+		}
+	}
+
+	a {
+		font-size: 20px;
+		margin: 0;
+		text-decoration: none;
+
+		&:hover {
+			color: #ea7d17;
+		}
+
+		@media (min-width: 501px) {
+			margin: 0 0 0 50px;
+		}
+	}
+}
