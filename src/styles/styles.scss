@@ -1,7 +1,8 @@
-@import "_core-styles.scss";
-@import "_header-footer.scss";
-@import "_homepage.scss";
-@import "_showdate-clock.scss";
-@import "_weather.scss";
-@import "_about-you.scss";
-@import "currency-converter";
+@use "_core-styles.scss";
+@use "_header-footer.scss";
+@use "_homepage.scss";
+@use "_showdate-clock.scss";
+@use "_weather.scss";
+@use "_about-you.scss";
+@use "currency-converter";
+@use "_buttons.scss";
