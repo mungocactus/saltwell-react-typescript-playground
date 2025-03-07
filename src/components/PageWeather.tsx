@@ -52,7 +52,7 @@ export default function PageWeather() {
   console.log(weather);
   console.log(weather.description);
 
-  const temp = Math.round(weather.temp);
+  const temp = Math.round(Number(weather.temp));
   console.log(temp);
   let weatherTemp = "";
 
@@ -121,7 +121,7 @@ export default function PageWeather() {
     }
   }
 
-  const direction = weather.windDirection;
+  const direction = Number(weather.windDirection);
   let compassPoint = "";
   console.log(direction);
 
@@ -172,12 +172,14 @@ export default function PageWeather() {
           <section className="weather-right">
             <h4 className="weather-location">{weather.location}</h4>
             <h4 className="weather-info">Current Temp</h4>
-            <h4 className={weatherTemp}>{Math.round(weather.temp)}</h4>
+            <h4 className={weatherTemp}>{Math.round(Number(weather.temp))}</h4>
             <h4 className="weather-main">{weather.overall}</h4>
             <h4 className="weather-extra">{weather.description}</h4>
             <div className="details">
               <h4 className="item">Wind Speed ... </h4>
-              <h4 className="value">{Math.round(weather.windSpeed)} kpm</h4>
+              <h4 className="value">
+                {Math.round(Number(weather.windSpeed))} kpm
+              </h4>
             </div>
             <div className="details">
               <h4 className="item">Wind Direction ... </h4>
