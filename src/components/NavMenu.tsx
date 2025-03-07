@@ -24,6 +24,12 @@ export default function NavMenu() {
           Currency Converter
         </NavLink>
         <NavLink
+          to="/currency-tanstack"
+          className={({ isActive }) => (isActive ? "active" : " ")}
+        >
+          Currency TanStack
+        </NavLink>
+        <NavLink
           to="/weather"
           className={({ isActive }) => (isActive ? "active" : " ")}
         >

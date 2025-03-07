@@ -5,11 +5,13 @@ import PageWeather from "./components/PageWeather.tsx";
 import PageWeatherTanStack from "./components/PageWeatherTanStack.tsx";
 import PageAboutYou from "./components/PageAboutYou.tsx";
 import PageCurrencyConverter from "./components/PageCurrencyConverter.tsx";
+import PageCurrencyTanStack from "./components/PageCurrencyTanStack.tsx";
 
 const routerVariable = createBrowserRouter([
   { path: "/", element: <PageHome /> },
   { path: "/about-you", element: <PageAboutYou /> },
   { path: "/currency-converter", element: <PageCurrencyConverter /> },
+  { path: "currency-tanstack", element: <PageCurrencyTanStack /> },
   { path: "/weather", element: <PageWeather /> },
   { path: "/weather-tanstack", element: <PageWeatherTanStack /> },
 ]);
