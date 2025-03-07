@@ -11,7 +11,7 @@ import rain from "../assets/weather-rain.jpeg";
 import scatteredClouds from "../assets/weather-scattered-clouds.jpg";
 import snow from "../assets/weather-snow.png";
 
-export default function PageWeather() {
+export default function PageWeatherTanStack() {
   const [weather, setWeather] = useState({
     temp: "3",
     windSpeed: "30",
