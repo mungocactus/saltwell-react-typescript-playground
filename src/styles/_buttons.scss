@@ -1,0 +1,21 @@
+button {
+  font-family: initial;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ea7d17;
+  border: 0;
+  border-radius: 7px;
+  height: 48px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  width: 200px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    background-color: #ccc9c9;
+  }
+}

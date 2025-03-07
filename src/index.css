@@ -435,25 +435,6 @@ footer a:hover {
 .about-you .about-you-details .details {
   margin-bottom: 50px;
 }
-.about-you button {
-  font-family: initial;
-  font-size: 20px;
-  color: #fff;
-  background-color: #ea7d17;
-  border: 0;
-  border-radius: 7px;
-  height: 48px;
-  letter-spacing: 1px;
-  margin-top: 30px;
-  text-transform: uppercase;
-  width: 200px;
-}
-.about-you button:hover {
-  cursor: pointer;
-}
-.about-you button:disabled {
-  background-color: #ccc9c9;
-}
 
 .currency {
   display: flex;
@@ -578,6 +559,26 @@ footer a:hover {
   margin: 0;
   padding-top: 3px;
   text-align: left;
+}
+
+button {
+  font-family: initial;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ea7d17;
+  border: 0;
+  border-radius: 7px;
+  height: 48px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  width: 200px;
+}
+button:hover {
+  cursor: pointer;
+}
+button:disabled {
+  background-color: #ccc9c9;
 }
 
 /*# sourceMappingURL=index.css.map */

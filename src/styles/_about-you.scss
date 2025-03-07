@@ -1,101 +1,101 @@
 .about-you-form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-you {
-	max-width: 750px;
-	margin: 0 auto 100px;
-	text-align: center;
+  max-width: 750px;
+  margin: 0 auto 100px;
+  text-align: center;
 
-	h2 {
-		font-size: 75px;
-		line-height: 1;
-	}
+  h2 {
+    font-size: 75px;
+    line-height: 1;
+  }
 
-	form {
-		margin-top: 50px;
-		max-width: 450px;
-		width: 100%;
-	}
+  form {
+    margin-top: 50px;
+    max-width: 450px;
+    width: 100%;
+  }
 
-	.input-container {
-		align-items: center;
-		display: flex;
-		flex-direction: column;
+  .input-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 
-		label {
-			color: #000;
-			font-size: 24px;
-		}
+    label {
+      color: #000;
+      font-size: 24px;
+    }
 
-		input {
-			border: solid 1px #000;
-			border-radius: 5px;
-			font-family: initial;
-			font-size: 18px;
-			letter-spacing: 1px;
-			height: 38px;
-			margin-top: 3px;
-			width: 100%;
-			max-width: 500px;
-			padding-left: 20px;
-		}
+    input {
+      border: solid 1px #000;
+      border-radius: 5px;
+      font-family: initial;
+      font-size: 18px;
+      letter-spacing: 1px;
+      height: 38px;
+      margin-top: 3px;
+      width: 100%;
+      max-width: 500px;
+      padding-left: 20px;
+    }
 
-		::placeholder {
-			color: #ccc9c9;
-			font-family: initial;
-			font-size: 18px;
-			letter-spacing: 1px;
-		}
+    ::placeholder {
+      color: #ccc9c9;
+      font-family: initial;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
 
-		.input-error {
-			color: #fff;
-			margin: 3px 0 0 0;
-		}
-	}
+    .input-error {
+      color: #fff;
+      margin: 3px 0 0 0;
+    }
+  }
 
-	.about-you-details {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+  .about-you-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-		h4 {
-			font-size: 40px;
-			font-weight: 300;
-			margin-bottom: 0;
-		}
+    h4 {
+      font-size: 40px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
 
-		p {
-			font-size: 30px;
-			margin: 0;
-		}
+    p {
+      font-size: 30px;
+      margin: 0;
+    }
 
-		.details {
-			margin-bottom: 50px;
-		}
-	}
+    .details {
+      margin-bottom: 50px;
+    }
+  }
 
-	button {
-		font-family: initial;
-		font-size: 20px;
-		color: #fff;
-		background-color: #ea7d17;
-		border: 0;
-		border-radius: 7px;
-		height: 48px;
-		letter-spacing: 1px;
-		margin-top: 30px;
-		text-transform: uppercase;
-		width: 200px;
+  // button {
+  // 	font-family: initial;
+  // 	font-size: 20px;
+  // 	color: #fff;
+  // 	background-color: #ea7d17;
+  // 	border: 0;
+  // 	border-radius: 7px;
+  // 	height: 48px;
+  // 	letter-spacing: 1px;
+  // 	margin-top: 30px;
+  // 	text-transform: uppercase;
+  // 	width: 200px;
 
-		&:hover {
-			cursor: pointer;
-		}
+  // 	&:hover {
+  // 		cursor: pointer;
+  // 	}
 
-		&:disabled {
-			background-color: #ccc9c9;
-		}
-	}
+  // 	&:disabled {
+  // 		background-color: #ccc9c9;
+  // 	}
+  // }
 }
